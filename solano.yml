@@ -1,5 +1,5 @@
-# ruby_version: 'ruby-2.3.0'
-# bundler_version: 1.10.6
+ruby_version: 'ruby-2.3.0'
+bundler_version: 1.10.6
 timeout: 4
 tests:
   - sleep 10
@@ -8,6 +8,9 @@ tests:
   - sleep 1
 rerun_list:
   - sleep 10
+test_exclude_pattern:
+  - features/*.feature
+  - spec/**_spec.rb
 cache:
   per_profile: true
   key_paths:
