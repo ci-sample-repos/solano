@@ -1,12 +1,13 @@
 ruby_version: 'ruby-2.3.0'
 bundler_version: 1.10.6
-test_pattern:
-  - features/*.feature
-  - spec/**_spec.rb
-test_exclude_pattern:
-  - spec/agent_spec.rb
+timeout: 4
 tests:
-  - bundle exec rspec spec/agent_spec.rb
+  - sleep 10
+  - sleep 5
+  - sleep 3
+  - sleep 1
+rerun_list:
+  - sleep 10
 cache:
   per_profile: true
   key_paths:
