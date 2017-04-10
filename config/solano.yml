@@ -17,6 +17,7 @@ test_pattern:
   - spec/**_spec.rb
 test_exclude_pattern:
   - spec/agent_spec.rb
+  - spec/cli/commands/spec_spec.rb
 tests:
   - bundle exec rspec spec/agent_spec.rb
 cache:
