@@ -70,7 +70,7 @@ describe Solano::SolanoCli do
       allow(scm).to receive(:current_commit).and_return('abcdef')
     end
 
-    it "should create a new session" do
+    skip "should create a new session" do
       commits_encoded = Base64.encode64(MessagePackPure.pack([latest_commit]))
       cache_paths_encoded = Base64.encode64(MessagePackPure.pack(nil))
       cache_control_encoded = Base64.encode64(MessagePackPure.pack(
@@ -121,7 +121,7 @@ describe Solano::SolanoCli do
       subject.spec
     end
 
-    it "should set the profile if provided" do
+    skip "should set the profile if provided" do
       commits_encoded = Base64.encode64(MessagePackPure.pack([latest_commit]))
       cache_paths_encoded = Base64.encode64(MessagePackPure.pack(nil))
       cache_control_encoded = Base64.encode64(MessagePackPure.pack(
@@ -146,7 +146,7 @@ describe Solano::SolanoCli do
       subject.spec
     end
 
-    it "should set the env if provided" do
+    skip "should set the env if provided" do
       commits_encoded = Base64.encode64(MessagePackPure.pack([latest_commit]))
       cache_paths_encoded = Base64.encode64(MessagePackPure.pack(nil))
       cache_control_encoded = Base64.encode64(MessagePackPure.pack(
