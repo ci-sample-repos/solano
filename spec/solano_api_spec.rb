@@ -157,4 +157,9 @@ describe Solano::SolanoAPI do
     end
   end
 
+  it 'should be error' do
+    sleep 10
+    expect { 10 }.to eq(20)
+  end
+
 end
