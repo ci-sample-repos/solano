@@ -10,18 +10,12 @@ profiles:
     environment:
       MY_PROFILE: first
     :tests:
-    - type: nosetests
-      mode: basic
-      output: exit-status
-      files:
+    - files:
         - spec/agent_spec.rb
 
   second:
     environment:
       MY_PROFILE: second
     :tests:
-    - type: nosetests
-      mode: basic
-      output: exit-status
-      files:
+    - files:
         - spec/solano_api_spec.rb
