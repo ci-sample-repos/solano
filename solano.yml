@@ -9,13 +9,11 @@ profiles:
   first:
     environment:
       MY_PROFILE: first
-    :tests:
-    - files:
-        - spec/agent_spec.rb
+    test_pattern:
+      - spec/agent_spec.rb
 
   second:
     environment:
       MY_PROFILE: second
-    :tests:
-    - files:
-        - spec/solano_api_spec.rb
+    test_pattern:
+      - spec/solano_api_spec.rb
