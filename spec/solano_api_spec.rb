@@ -164,6 +164,9 @@ describe Solano::SolanoAPI do
     expect(1020).to eq(1020)
     expect(3).to eq(3)
     expect(3).to eq(3)
+    expect(3).to eq(3)
+    expect(3).to eq(3)
+    expect(3).to eq(3)
   end
 
 end
