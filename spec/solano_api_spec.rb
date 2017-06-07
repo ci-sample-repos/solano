@@ -158,7 +158,7 @@ describe Solano::SolanoAPI do
   end
 
   it 'should be error' do
-    30.times { sleep 10 }
+    30.times { sleep 5 }
 
     # This test should be failed.
     expect(20).to eq(20)
