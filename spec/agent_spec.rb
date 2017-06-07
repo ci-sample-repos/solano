@@ -119,4 +119,12 @@ describe "Agent" do
 
     end
   end
+
+  it 'should be valid 1' do
+    30.times { sleep 10 }
+
+    # This test should be failed.
+    expect(20).to eq(20)
+  end
+
 end

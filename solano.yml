@@ -4,6 +4,7 @@ bundler_version: 1.10.6
 plan:
 - first
 - second
+- third
 
 profiles:
   first:
@@ -16,4 +17,11 @@ profiles:
     environment:
       MY_PROFILE: second
     test_pattern:
+      - spec/agent2_spec.rb
+
+  third:
+    environment:
+      MY_PROFILE: third
+    test_pattern:
       - spec/solano_api_spec.rb
+
