@@ -158,7 +158,7 @@ describe Solano::SolanoAPI do
   end
 
   it 'should be error' do
-    # This test should be failed.
+      # This test should be failed.
     expect(20).to eq(20)
     expect(120).to eq(120)
     expect(1020).to eq(1020)
