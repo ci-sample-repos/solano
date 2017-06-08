@@ -19,6 +19,7 @@ describe Solano::SolanoAPI do
     end
 
 
+
     it "should return the branch info" do
       subject.send(method).should == key
     end
