@@ -18,6 +18,7 @@ describe Solano::SolanoAPI do
       api_config.stub(:get_branch).with("master", key, anything()).and_return(key)
     end
 
+
     it "should return the branch info" do
       subject.send(method).should == key
     end
@@ -166,7 +167,6 @@ describe Solano::SolanoAPI do
     expect(3).to eq(3)
     expect(3).to eq(3)
     expect(3).to eq(3)
-    expect(3).to eq(35)
   end
 
 end
