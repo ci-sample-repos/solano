@@ -1,7 +1,7 @@
 ruby_version: 'ruby-2.3.0'
 bundler_version: 1.10.6
 timeout: 4
-script: "echo 'Hollaa'"
+script: exit 1
 tests:
   - sleep 10
   - sleep 9
