@@ -1,7 +1,7 @@
 ruby_version: 'ruby-2.3.0'
 bundler_version: 1.10.6
 timeout: 4
-script: /bin/sleep
+script: bin/test
 rerun_list:
   - sleep 10
 test_exclude_pattern:
