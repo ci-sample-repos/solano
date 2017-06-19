@@ -3,6 +3,7 @@ git --version
 echo '========= Config ============'
 cat /tmp/agent2-config*
 echo '=========  End   ============'
+echo 'Test'
 echo 'Start'
 sleep 30
 echo 'Finish'
