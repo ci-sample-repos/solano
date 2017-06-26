@@ -5,6 +5,4 @@ cat /tmp/agent2-config*
 echo '=========  End   ============'
 echo 'Test'
 echo 'Start'
-sudo apt-get update
-sudo apt-get upgrade -y
 echo 'Finish'
