@@ -3,6 +3,7 @@ git --version
 echo '========= Config ============'
 cat /tmp/agent2-config*
 echo '=========  End   ============'
+lsb_release -a
 sleep 10
 echo 'Start'
 echo 'Finish'
