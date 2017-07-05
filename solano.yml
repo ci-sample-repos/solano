@@ -5,6 +5,7 @@ test_pattern:
   - spec/**_spec.rb
 test_exclude_pattern:
   - spec/agent_spec.rb
+  - spec/ignored_spec.rb
 tests:
   - bundle exec rspec spec/agent_spec.rb
 cache:
@@ -14,8 +15,6 @@ cache:
     - Gemfile.lock
     - solano.gemspec
     - lib/solano/version.rb
-isolate:
-  - spec/ignored_spec.rb
 
 rerun_list:
   - spec/rerun_spec.rb
