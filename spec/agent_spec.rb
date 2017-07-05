@@ -119,4 +119,9 @@ describe "Agent" do
 
     end
   end
+
+   it 'should be failed' do
+     expect(false).to be_truthy
+   end
+
 end
