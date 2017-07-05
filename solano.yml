@@ -16,3 +16,6 @@ cache:
     - lib/solano/version.rb
 isolate:
   - spec/ignored_spec.rb
+
+rerun_list:
+  - spec/rerun_spec.rb
