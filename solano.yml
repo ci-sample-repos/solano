@@ -6,3 +6,4 @@ test_exclude_pattern:
   - spec/agent_spec.rb
 tests:
   - bundle exec rspec spec/agent_spec.rb
+script: pwd
