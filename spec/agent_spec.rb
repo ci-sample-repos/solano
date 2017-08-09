@@ -87,7 +87,9 @@ describe "Agent" do
     @agent.attach(blob, metadata)
   end
 
+
   it "should attach an unnamed blob" do
+    puts 'nnn'
     blob = 'A'*128
 
     guid = "01234567"
