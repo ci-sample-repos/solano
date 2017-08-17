@@ -17,6 +17,8 @@ describe ParamsHelper do
       expect(true).to eq(true)
     end
 
+
+
     it 'return host params if it is present' do
       params = {'host' => 'host.example' }
       expect(self.class.default_host(params)).to eq(params['host'])
