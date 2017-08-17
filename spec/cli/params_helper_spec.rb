@@ -24,6 +24,7 @@ describe ParamsHelper do
 
 
 
+
     it 'returns SOLANO_CLIENT_HOST variable if it is present' do
       ENV.clear
       ENV['SOLANO_CLIENT_HOST'] = 'host.example'
