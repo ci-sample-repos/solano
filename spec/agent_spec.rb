@@ -18,6 +18,9 @@ describe "Agent" do
     FakeFS::FileSystem.clear
   end
 
+
+  
+
   it "should initialize" do
     expect { agent = Solano::BuildAgent.new }.to_not raise_error
   end
