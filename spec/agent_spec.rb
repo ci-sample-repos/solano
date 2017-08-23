@@ -119,5 +119,9 @@ describe "Agent" do
       env_restore(env)
 
     end
+    
+    it 'should be passed' do
+      expect(true).to eq(true)
+    end   
   end
 end
