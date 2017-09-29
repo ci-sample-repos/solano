@@ -6,6 +6,10 @@ require 'solano/cli/api'
 require 'solano/cli/config'
 require 'net/http'
 
+
+
+
+
 describe Solano::SolanoAPI do
   let(:scm) { scm_config = Solano::SCM.configure; scm_config[0] }
   let(:api_config) { double(Solano::ApiConfig, :get_branch => nil) }
