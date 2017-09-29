@@ -5,6 +5,9 @@ require 'spec_helper'
 require 'solano/cli'
 require 'solano/ssh'
 
+
+
+
 describe Solano::Ssh do
   include_context 'solano_api_stubs'
   include SolanoConstant
