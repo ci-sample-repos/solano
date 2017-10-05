@@ -157,10 +157,9 @@ describe Solano::SolanoAPI do
     it "should handle TddiumClient::Error::Base exception and recieve error message" do
       expect { subject.call_api(EXAMPLE_HTTP_METHOD, EXAMPLE_TDDIUM_RESOURCE) }.to raise_error {|error| error.should be_a(TddiumClient::Error::Base)}
     end
-    
-    it 'should be ok' do
-      25.should == 25
-    end
   end
-
+    
+  it 'should be ok' do
+    25.should == 25
+  end
 end
