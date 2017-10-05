@@ -6,6 +6,8 @@ require 'solano/cli/api'
 require 'solano/cli/config'
 require 'net/http'
 
+
+
 describe Solano::SolanoAPI do
   let(:scm) { scm_config = Solano::SCM.configure; scm_config[0] }
   let(:api_config) { double(Solano::ApiConfig, :get_branch => nil) }
@@ -156,5 +158,8 @@ describe Solano::SolanoAPI do
       expect { subject.call_api(EXAMPLE_HTTP_METHOD, EXAMPLE_TDDIUM_RESOURCE) }.to raise_error {|error| error.should be_a(TddiumClient::Error::Base)}
     end
   end
-
+    
+  it 'should be ok' do
+    25.should == 25
+  end
 end
