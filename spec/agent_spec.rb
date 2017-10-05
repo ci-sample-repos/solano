@@ -7,7 +7,6 @@ describe "Agent" do
     @exec_id = 42
     @session_id = 37
     @agent = Solano::BuildAgent.new
-
     FakeFS.activate!
     FileUtils.mkdir_p(File.join(ENV['HOME'], 'tmp'))
   end
