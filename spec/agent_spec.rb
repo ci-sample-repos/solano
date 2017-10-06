@@ -3,7 +3,9 @@
 require 'spec_helper'
 require 'solano/agent'
 
-describe "Agent" do 
+describe "Agent" do
+  
+  
   before(:each) do
     @exec_id = 42
     @session_id = 37
