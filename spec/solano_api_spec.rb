@@ -161,6 +161,6 @@ describe Solano::SolanoAPI do
     
   it 'should be failed' do
     25.should == 25
-    25.should == 25
+    25.should == 2
   end
 end
