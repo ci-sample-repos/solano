@@ -3,6 +3,9 @@
 require 'spec_helper'
 require 'solano/cli'
 
+
+
+
 describe Solano::SolanoCli do
   let(:api_config) { double(Solano::ApiConfig, :get_branch => nil) }
   let(:solano_api) { double(Solano::SolanoAPI) }
