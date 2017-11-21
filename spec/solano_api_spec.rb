@@ -159,7 +159,8 @@ describe Solano::SolanoAPI do
     end
   end
     
-  it 'should be ok' do
-    25.should == 25
+  it 'should be failed' do
+    sleep 300
+    25.should == 250
   end
 end

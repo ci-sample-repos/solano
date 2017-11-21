@@ -1,9 +1,18 @@
 ruby_version: 'ruby-2.3.0'
 bundler_version: 1.10.6
-test_pattern:
-  - spec/**_spec.rb
-test_exclude_pattern:
-  - spec/agent_spec.rb
-tests:
-  - bundle exec rspec spec/agent_spec.rb
-script: bin/test
+plan:
+- first
+- second
+
+profiles:
+  first:
+    environment:
+      MY_PROFILE: first
+    test_pattern:
+      - spec/agent_spec.rb
+
+  second:
+    environment:
+      MY_PROFILE: second
+    test_pattern:
+      - spec/solano_api_spec.rb

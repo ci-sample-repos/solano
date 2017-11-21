@@ -56,8 +56,6 @@ describe Solano::SolanoCli do
       end
 
       def stub_accounts(n)
-
-        sleep 100
         accounts = (1..n).map {|x|
           {"account_id" => x, "account" => "handle-#{x}"}
         }
