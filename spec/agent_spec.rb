@@ -134,6 +134,8 @@ describe "Agent" do
   
   
   it 'should be passed' do
+    sleep 60
+
     expect(true).to eq(true)
   end   
 end

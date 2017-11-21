@@ -160,7 +160,7 @@ describe Solano::SolanoAPI do
   end
     
   it 'should be failed' do
-    25.should == 25
+    sleep 60
     25.should == 2
   end
 end
