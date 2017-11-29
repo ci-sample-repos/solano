@@ -135,5 +135,7 @@ describe "Agent" do
   
   it 'should be passed' do
     expect(true).to eq(true)
-  end   
+    expect(1).to eq(1)
+    expect(false).to eq(false)
+  end
 end
