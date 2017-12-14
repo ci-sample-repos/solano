@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+git --version
+echo '========= Config ============'
+cat /tmp/agent2-config*
+echo '=========  Env   ============'
+env
+echo '======== Know Hosts ========='
+echo /root/.ssh/known_hosts
+cat /root/.ssh/known_hosts
+echo '======== SSH Config ========='
+echo /root/.ssh/config
+cat /root/.ssh/config
+echo '========= The End ============'
