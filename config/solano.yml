@@ -1,8 +1,5 @@
 ruby_version:
  - 'ruby-2.4.0'
-coverage:
-  version: 2
-  enabled: true
 bundler_version: 1.13.7
 tool_config:
   gcc:
