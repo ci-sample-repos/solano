@@ -4,21 +4,21 @@ bundler_version: 1.13.7
 tool_config:
   gcc:
     version: '4.8'
-#test_pattern:
-#  - spec/**_spec.rb
-#test_exclude_pattern:
-#  - spec/agent_spec.rb
+test_pattern:
+  - spec/**_spec.rb
+test_exclude_pattern:
+  - spec/agent_spec.rb
 
 profiles:
   a:
     tests:
-      - "sleep 10"
+      - "exit 0"
   b:
     tests:
-      - "sleep 20"
+      - "exit 0"
   c:
     tests:
-      - "sleep 30"
+      - "exit 0"
 pipeline:
   a:
     b: c
