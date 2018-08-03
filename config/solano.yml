@@ -9,13 +9,13 @@ test_pattern:
 test_exclude_pattern:
   - spec/agent_spec.rb
 
-profiles:
+steps:
   a:
     tests:
-      - "exit 0"
+      - "pwd; exit 0"
   b:
     tests:
-      - "exit 0"
+      - "pwd; exit 0"
   c:
     tests:
       - "exit 0"
