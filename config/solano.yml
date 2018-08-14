@@ -28,4 +28,4 @@ cache:
     - lib/solano/version.rb
 collect:  
   repo:
-    - /home/u1/coverage/*
+    - "/home/u1/coverage/*"
