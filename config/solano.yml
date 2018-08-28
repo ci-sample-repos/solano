@@ -19,6 +19,25 @@ test_exclude_pattern:
   - spec/agent_spec.rb
 tests:
   - bundle exec rspec spec/agent_spec.rb
+isolate:
+  - spec/scm/scm_spec.rb 
+  - spec/cli/commands/server_spec.rb 
+  - spec/scm/git_log_parser_spec.rb 
+  - spec/solano_api_spec.rb 
+  - spec/cli/params_helper_spec.rb 
+  - spec/cli/commands/keys_spec.rb 
+  - spec/cli/commands/stop_spec.rb 
+  - spec/ssh_spec.rb 
+  - spec/cli/commands/describe_spec.rb 
+  - spec/scm/hg_spec.rb 
+  - spec/cli/commands/rerun_spec.rb 
+  - spec/scm/git_spec.rb 
+  - spec/cli/commands/spec_spec.rb 
+  - spec/agent_unstubbed_spec.rb 
+  - spec/cli/commands/status_spec.rb 
+  - spec/cli/commands/account_spec.rb 
+  - spec/prompt_spec.rb 
+  - spec/cli/commands/find_failing_spec.rb
 cache:
   per_profile: true
   key_paths:
