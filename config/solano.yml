@@ -38,6 +38,9 @@ isolate:
   - spec/cli/commands/account_spec.rb 
   - spec/prompt_spec.rb 
   - spec/cli/commands/find_failing_spec.rb
+  - features/spec_commands/do_not_output_messages_with_machine.feature 
+  - features/spec_commands/auto_create_a_new_suite_with_no_gitignore.feature 
+  - features/suite_commands_tddium_yml/yaml_repo_config_file.feature
 cache:
   per_profile: true
   key_paths:
