@@ -16,9 +16,9 @@ Scenario: Successfully change password interactively
   And the password change succeeds
   When I run `solano password` interactively
   And I respond to "old password" with "foobar"
-  And I respond to "new password" with "foobar2"
   And I respond to "new password" with "foobar3"
-  Then the output from "solano password" should contain "Your password has been changed"
+  And I respond to "new password" with "foobar3"
+  Then the output from "solano password" should contain "Your password has bla bla car been changed"
   When the console session ends
   Then the exit status should be 0
 
