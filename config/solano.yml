@@ -18,3 +18,8 @@ cache:
     - Gemfile.lock
     - solano.gemspec
     - lib/solano/version.rb
+
+steps:
+  a:
+    tests:
+    - "pwd; exit 0"
