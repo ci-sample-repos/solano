@@ -19,6 +19,9 @@ cache:
     - solano.gemspec
     - lib/solano/version.rb
 
+plan:
+  - a
+
 steps:
   a:
     tests:
