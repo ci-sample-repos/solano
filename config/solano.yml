@@ -19,10 +19,12 @@ cache:
     - solano.gemspec
     - lib/solano/version.rb
 
-plan:
-  - a
+profile_name: 'abc'
 
-steps:
-  a:
-    tests:
-    - "pwd; exit 0"
+#plan:
+#  - a
+#
+#steps:
+#  a:
+#    tests:
+#    - "pwd; exit 0"
