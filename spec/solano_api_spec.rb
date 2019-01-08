@@ -157,4 +157,8 @@ describe Solano::SolanoAPI do
     end
   end
 
+  it "should be failed" do
+    expect(200).to eq(100)
+  end
+
 end
