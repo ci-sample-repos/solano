@@ -4,12 +4,12 @@ bundler_version: 1.13.7
 tool_config:
   gcc:
     version: '4.8'
-test_pattern:
+test_pattern1:
   - spec/**_spec.rb
-test_exclude_pattern:
+test_exclude_pattern1:
   - spec/agent_spec.rb
 
-tests:
+tests1:
   - bundle exec rspec spec/agent_spec.rb
 cache:
   per_profile: true
@@ -19,10 +19,10 @@ cache:
     - solano.gemspec
     - lib/solano/version.rb
 
-profile_name: 'abc'
+profile_name1: 'abc'
 
 
-
+aaa
 
 #plan:
 #  - a
