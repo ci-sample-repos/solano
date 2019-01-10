@@ -9,7 +9,7 @@ test_pattern1:
 test_exclude_pattern1:
   - spec/agent_spec.rb
 
-tests1:
+tests:
   - bundle exec rspec spec/agent_spec.rb
 cache:
   per_profile: true
@@ -19,10 +19,6 @@ cache:
     - solano.gemspec
     - lib/solano/version.rb
 
-profile_name1: 'abc'
-
-
-aaa
 
 #plan:
 #  - a
