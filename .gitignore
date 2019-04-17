@@ -12,3 +12,4 @@ coverage
 .solano-deploy-key*
 
 pkg/*
+asdf
